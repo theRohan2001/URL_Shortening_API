@@ -14,7 +14,7 @@ Alembic
 Clone the repository with:
 
 ```bash
-"git clone https://github.com//url_shortener.git"
+git clone https://github.com//url_shortener.git
 ```
 ### Install uv
 
