@@ -21,17 +21,19 @@ Clone the repository with:
 ```bash
 pip install uv
 ```
-
+## Create Virtual Environment
 ```cd``` into the url_shortener directory then create and activate a virtual environment:
 ```uv venv .venv```
 
 ## Intialize the project through uv
 
-``` uv init```
+```bash
+uv init
+```
 
 ## Install all packages with the following:
 
-```
+```bash
 uv pip install -r requirements.txt
 ```
 
@@ -56,7 +58,7 @@ You should a new url_shortener.db file in the root directory.
 
 ## Start Server
 
-Run server with: ```fastapi dev app.py```
+Run server with: ```uv run fastapi dev app.py```
 
 Root: <http://127.0.0.1:8000>
 Documentation: <http://127.0.0.1:8000/docs> or <http://127.0.0.1:8000/redoc>
