@@ -3,11 +3,11 @@
 A FastAPI URL Shortener API that helps shorten long URLs.
 
 ## Requirements
-#Python
-#FastAPI
-#SQLAlchemy
-#UV
-#Alembic
+Python  
+FastAPI  
+SQLAlchemy  
+UV  
+Alembic  
 
 ## Clone Repository & Setup venv
 
